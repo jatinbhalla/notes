@@ -1,0 +1,7 @@
+step1: ssh-keygen -t rsa -b 4096 -C "jatinbhalla18@example.com"
+step2: eval "$(ssh-agent -s)"
+step3: ssh-add ~/.ssh/id_rsa
+ste4: cat ./ssh/id_rsa.pub
+
+copy the key
+ go to git hub and save it
