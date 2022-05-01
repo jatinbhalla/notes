@@ -1,0 +1,60 @@
+CI/CD
+continous integration and continous deployment
+
+continous deployment and continous delivery
+
+code is stored under a repo -- git hub, git lab, bitbucket, azure repo
+
+what ever code you have written in repo will now be build
+
+when developer writes a code in initial level they always build that code on their local system first if that works fine than they push that code on git --git hub-->now that code will be build --> it create a executable file or package-->
+
+the process of building the code is known as CI
+
+build of code differs depending on code type
+java code--> maven(gets to know from your pom.xml file)-->jar,war,ear
+dot net -->sdk
+python-->py compiler
+
+CONTINOUS DEPLOYMENT
+
+the package which was create in CI process will be deployed on different servers or environment
+
+dev-->uat-->qa-->productions
+
+
+
+c#,java,ruby,scala--> maven
+gradle-->c,c++,groovy,java
+
+
+ci--> we add serveral set of tasks and your code goes from those set of tasks that why it is also called pipeline
+
+build--> maven
+
+sonar qube/sonar cloud-->break the pipeline on basis of sonar report
+command prompt --> query
+push to an artifactory-->>j frog
+
+
+a company has created a newer version of software -->15.1.0(old)-->15.2.0(newer version)
+
+
+
+
+in git you are using verion controlling of a code--> the raw code on which developer works
+in case of artifactory -->jfrog-> in this you keep track of executable files verioning-->
+
+
+master--> machine you download and install jenkins
+slave--> it helps you to run jenkins job/pipeline/tasks
+slave 1 i son windows os
+slave 2 is on linux
+project 1 which is on dot and dot net project work good on windows machine
+project 2 which on python and python works good with ubuntu machine so now you will slave 2 in case of project 2
+windows as an operating and few project need ubuntu as operating
+
+
+
+
+
