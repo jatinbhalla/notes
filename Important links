@@ -12,3 +12,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 docker official main site:
 https://docs.docker.com/docker-id/
+
+
+push images to your private azure repo
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli
