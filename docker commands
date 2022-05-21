@@ -10,3 +10,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 to check docker compose version 
 docker-compose --version
+
+
+docker-machine create worker1 --virtualbox-no-vtx-check
